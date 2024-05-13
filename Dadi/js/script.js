@@ -1,36 +1,20 @@
-// const userName = prompt("Come ti chiami?");
-// console.log("Ciao " + userName);
-// console.log
+//Consegna
+// Il giocatore gioca contro il computer.
+// Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+// Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-// let number = 100
-// console.log (number);
+let userNum = Math.floor(Math.random() * 6) + 1;
+let pcNum = Math.floor(Math.random() * 6) + 1;
 
-// const pi = 3.14
-// console.log (pi);
+console.log("User Number",userNum,"Pc Number", pcNum)
 
-// pari o dispari: chiedere all'utente/ssa se vuole pari o dispari e un numero intero compreso tra 1 e 9. Generare un numero casuale compreso tra 1 e 9, che sarà la giocata del computer. Stabilire e comunicare chi ha vinto secondo le regole di pari o dispari.
-
-// let choise = prompt ("Odd or even?")
-// let number = prompt ("Select a number")
-
-// let pcnum = Math.floor(Math.random () * 10);
-
-// console.log(pcnum)
-
-
-// let element = button
-
-// document.addEventListener("click", function(){
-//     document.getElementById("demo").innerHTML = "Hello World";
-//   });
+if (userNum === pcNum){
+    console.log("pareggio")
 
 
 
-// > Chiedi all'utente 5 numeri, calcola e scrivi in console la loro somma, la loro media e un numero randomico tra 0 e la somma.
-
-let numero; ""
-let sum 0;
-
-for (let i = 0; i = 4; i++) {
-
+} else if (userNum > pcNum){
+    console.log("User Won")
+} else {
+    console.log("Pc won")
 }
