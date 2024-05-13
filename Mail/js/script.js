@@ -17,8 +17,8 @@ const emails = [
 let userEmail = prompt("type your email")
     
     if (emails.includes(userEmail)) {
-        console.log("blaba")
+        console.log("Welcome to the Tournament")
         
     } else {
-        console.log("nooo")
+        console.log("Access denied")
     }
