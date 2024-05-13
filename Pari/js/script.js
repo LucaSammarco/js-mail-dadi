@@ -6,8 +6,8 @@ const evenNum = [];
 
 for (let index = 0; index < 6; index++) {
     
-    let userNumber = prompt("Insert number");
-    console.log(evenNum)
+    let userNumber = Number.parseInt( prompt("Insert number"), 10);
+
     if (userNumber % 2 == 0) {
         evenNum.push(userNumber)
      
